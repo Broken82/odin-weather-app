@@ -1,15 +1,5 @@
-import "./styles.css"
+import "./styles.css";
 
-import { fetchWeather } from "./api"
+import { fetchWeather } from "./api";
 
-
-fetchWeather("Zielona Góra")
-
-
-
-
-
-
-
-
-
+fetchWeather("Zielona Góra");
