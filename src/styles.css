@@ -542,3 +542,9 @@ hr {
   gap: 10px;
 
 }
+
+.icon img{
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+}

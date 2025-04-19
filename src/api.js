@@ -1,4 +1,4 @@
-export async function fetchWeather(location) {
+ async function fetchWeather(location) {
   try {
     const response = await fetch(
       `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}?unitGroup=metric&key=2TEYHXVPXCFY3LUXMH3YTK5TJ&contentType=json`,
@@ -23,6 +23,7 @@ function processWeatherData(data) {
   const filteredData = {
     address: data.resolvedAddress,
     temp: data.currentConditions.temp,
+    time: data.currentConditions.datetime,
     conditions: data.currentConditions.conditions,
     tempmax: data.days[0].tempmax,
     tempmin: data.days[0].tempmin,
@@ -36,4 +37,11 @@ function processWeatherData(data) {
   };
 
   return filteredData;
+}
+
+
+export async function fetchData(input){
+  const apiData = await fetchWeather(input)
+
+  return processWeatherData(apiData)
 }
