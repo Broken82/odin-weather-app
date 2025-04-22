@@ -23,11 +23,11 @@ function processWeatherData(data) {
   const filteredData = {
     address: data.resolvedAddress,
     temp: data.currentConditions.temp,
-    time: data.currentConditions.datetime,
+    time: data.currentConditions.datetimeEpoch,
     conditions: data.currentConditions.conditions,
     tempmax: data.days[0].tempmax,
     tempmin: data.days[0].tempmin,
-    precipprob: data.currentConditions.precipprop,
+    precipprob: data.currentConditions.precipprob,
     uvindex: data.currentConditions.uvindex,
     windspeed: data.currentConditions.windspeed,
     visibility: data.currentConditions.visibility,
