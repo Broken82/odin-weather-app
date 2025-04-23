@@ -414,11 +414,12 @@ main {
 
 .upper {
   height: 350px;
-  
+  color: rgba(255, 255, 255, 0.555);
 }
 
 .lower {
   height: 250px;
+  color: rgba(255, 255, 255, 0.555);
 }
 
 .searchbar {
@@ -509,7 +510,7 @@ form button {
 .detail svg {
   width: 25px;
   height: 25px;
-  fill: white;
+  fill: rgba(255, 255, 255, 0.726);
 }
 
 .detail {
@@ -530,21 +531,33 @@ hr {
   font-weight: bolder;
 }
 
-.forecast-list{
+.forecast-list {
   display: flex;
   justify-content: space-between;
 }
 
-.forecast{
+.forecast {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
-
 }
 
-.icon img{
+.forecast img {
+  width: 60px;
+  height: 60px;
+}
+
+.icon img {
   width: 100px;
   height: 100px;
   padding: 15px;
+}
+
+span.day {
+  color: rgba(255, 255, 255, 0.911);
+}
+
+.detail span {
+  color: rgba(255, 255, 255, 0.911);
 }
