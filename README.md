@@ -12,7 +12,7 @@ Weather app created as a part of [The Odin Project](https://www.theodinproject.c
 - **Storage**
   - Web Storage API
 - **API**
-  - [Visual Crossing](www.visualcrossing.com/weather-api/)
+  - [Visual Crossing](https://www.visualcrossing.com/weather-api/)
 
 ## Instalation
 
