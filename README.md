@@ -9,8 +9,6 @@ Weather app created as a part of [The Odin Project](https://www.theodinproject.c
   - CSS
 - **Libraries**
   - Webpack
-- **Storage**
-  - Web Storage API
 - **API**
   - [Visual Crossing](https://www.visualcrossing.com/weather-api/)
 
