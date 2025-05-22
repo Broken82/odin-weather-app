@@ -11,6 +11,8 @@ Weather app created as a part of [The Odin Project](https://www.theodinproject.c
   - Webpack
 - **API**
   - [Visual Crossing](https://www.visualcrossing.com/weather-api/)
+- **Icons**
+  - [WeatherIcons](https://github.com/visualcrossing/WeatherIcons)
 
 ## Instalation
 
